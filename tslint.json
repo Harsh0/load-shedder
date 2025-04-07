@@ -1,0 +1,22 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-config-prettier"
+    ],
+    "jsRules": {},
+    "rules": {
+        "object-literal-sort-keys": false,
+        "trailing-comma": [false],
+        "no-console": false,
+        "ordered-imports": [
+            true,
+            {
+                "import-sources-order": "lowercase-last",
+                "named-imports-order": "lowercase-first"
+            }
+        ],
+        "prettier": [true, "./.prettierrc"]
+    },
+    "rulesDirectory": ["tslint-plugin-prettier"]
+}
