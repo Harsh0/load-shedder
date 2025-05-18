@@ -1,0 +1,25 @@
+# Source files
+/src
+
+# Test Coverage
+/coverage
+
+# Logs
+npm-debug.log*
+
+# Configuration files
+tsconfig.json
+tsconfig.build.json
+.prettierrc
+jest.config.js
+
+# Git files
+.gitignore
+.git
+
+# Editor files
+.vscode
+
+# Misc
+.DS_Store
+Thumbs.db

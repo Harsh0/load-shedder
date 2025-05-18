@@ -7,6 +7,10 @@ export interface LoadShedderOptions {
     logger?: (message: string) => void;
 }
 
+export type LoadShedder = {
+    shouldShedLoad: (getActiveRequests: () => number) => boolean;
+};
+
 export const DEFAULT_OPTIONS: Partial<LoadShedderOptions> = {
     /* tslint:disable:no-empty */
     logger: () => {},

@@ -3,6 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/load-shedder.svg)](https://www.npmjs.com/package/load-shedder)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Node.js CI](https://github.com/Harsh0/load-shedder/actions/workflows/ci.yml/badge.svg)](https://github.com/Harsh0/load-shedder/actions)
+[![Downloads](https://img.shields.io/npm/dm/load-shedder.svg)](https://www.npmjs.com/package/load-shedder)
 
 > ⚡️ Framework-agnostic load shedding middleware for Node.js servers
 

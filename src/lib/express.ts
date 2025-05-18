@@ -1,6 +1,7 @@
-import { Request, RequestHandler } from 'express';
+import type { Request, RequestHandler } from 'express';
 import { getLoadShedder } from './common';
-import { DEFAULT_OPTIONS, LoadShedderOptions } from './types';
+import type { LoadShedderOptions } from './types';
+import { DEFAULT_OPTIONS } from './types';
 
 export interface ExpressLoadShedderOptions extends LoadShedderOptions {
     exempt?: (req: Request) => boolean;
