@@ -1,6 +1,6 @@
 import axios from 'axios';
 import express from 'express';
-import { expressLoadShedder } from '../lib';
+import { expressLoadShedder } from '..';
 
 const port = process.env.PORT || 3000;
 

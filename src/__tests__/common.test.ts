@@ -1,6 +1,6 @@
 import { monitorEventLoopDelay } from 'perf_hooks';
-import { getLoadShedder } from '../lib/common';
-import type { LoadShedderOptions } from '../lib/types';
+import { getLoadShedder } from '../common';
+import type { LoadShedderOptions } from '../types';
 
 jest.mock('perf_hooks', () => ({
     monitorEventLoopDelay: jest.fn(() => ({
