@@ -68,8 +68,11 @@ jobs:
           git fetch origin release
           git checkout release
           
+          # Get the version from the release branch
+          RELEASE_VERSION=$(node -p "require('./package.json').version")
+          
           # Switch to main and merge
           git fetch origin main
           git checkout main
-          git merge origin/release --no-ff -m "chore: merge release v$(node -p "require('./package.json').version") to main [skip ci]"
+          git merge origin/release --no-ff -m "chore: merge release v${RELEASE_VERSION} to main [skip ci]"
           git push origin main
