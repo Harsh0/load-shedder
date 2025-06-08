@@ -1,3 +1,11 @@
+## [1.0.6](https://github.com/Harsh0/load-shedder/compare/v1.0.5...v1.0.6) (2025-06-08)
+
+
+### Bug Fixes
+
+* get release version from release branch ([#18](https://github.com/Harsh0/load-shedder/issues/18)) ([2e023cb](https://github.com/Harsh0/load-shedder/commit/2e023cbe80f53c1d8e5a0eeba229d05f6333cd99))
+* release version fix when commiting to main ([#19](https://github.com/Harsh0/load-shedder/issues/19)) ([8d393a6](https://github.com/Harsh0/load-shedder/commit/8d393a6592eda80fc5887fc104ee38869442ad8e))
+
 ## [1.0.5](https://github.com/Harsh0/load-shedder/compare/v1.0.4...v1.0.5) (2025-06-08)
 
 
